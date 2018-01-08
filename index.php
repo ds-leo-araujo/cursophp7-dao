@@ -26,9 +26,24 @@
 	//echo $usuario;
 
 	//Inserção de novo usuário
+	/*
 	$aluno = new Usuario("Afonso Araujo", "12345");
 	$aluno->insert();
 	echo $aluno;
+	*/
 
+	//Alteração, atualização de usuáios
+	/*
+	$usuario = new Usuario();
+	$usuario->loadById(6);
+	$usuario->update("Orlando Borges", "12345");
+	echo $usuario;
+	*/
+
+	//Deletar usuário
+	$usuario = new Usuario();
+	$usuario->loadById(6);
+	$usuario->delete();
+	echo $usuario;
 
 ?>
