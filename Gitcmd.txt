@@ -1,0 +1,9 @@
+git add --all
+
+
+git comiit -m "mensagem"
+
+
+git push origin master
+
+
